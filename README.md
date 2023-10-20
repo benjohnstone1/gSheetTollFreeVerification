@@ -1,7 +1,9 @@
 # gSheetTollFreeVerification
 Toll Free Verification with Google Sheets
 </br>
-This is a simple integration using the Twilio [Toll-Free Verification API](https://www.twilio.com/docs/messaging/compliance/toll-free/api-onboarding) I would highly encourage you to check out the documentation and build your own process using the API but for those of you that have been submitting CSV files to Twilio support team you may find this a helpful tool in the meantime.
+This is a simple integration using the Twilio [Toll-Free Verification API](https://www.twilio.com/docs/messaging/compliance/toll-free/api-onboarding)
+</br>
+I would highly encourage you to check out the documentation and build your own process using the API but for those of you that have been submitting CSV files to Twilio support team you may find this a helpful tool in the meantime.
 
 Google Sheet - MAKE A COPY
 https://docs.google.com/spreadsheets/d/1lMEcVwlZpWLyWLICx4kpMzKuTgdcYznqfB7Seq-F0X0/edit#gid=940622904
@@ -27,4 +29,5 @@ Bypass Google Verification Screen
 ![Screenshot 2023-10-20 at 12 28 35 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/f38e8ae1-6a67-42e4-b85b-519d9d799be1)
 
 Then you are done! In columns V you should see all successful Verification Sids in column W you should see any errors from unsuccessful submissions
+</br>
 ![Screenshot 2023-10-20 at 12 38 27 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/680cd8b5-af9d-4a12-9692-1d6516977474) 
