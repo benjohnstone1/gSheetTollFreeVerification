@@ -16,7 +16,9 @@ Click on Twilio Menu & Create Toll Free Verifications
 
 First time you run the extension do the following:
 Authorize Script
+
 ![Screenshot 2023-10-20 at 12 25 28 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/8f33e337-1c45-4c97-84f2-4f9117f4feee)
 
 Bypass Google Verification Screen
+
 ![Screenshot 2023-10-20 at 12 28 35 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/f38e8ae1-6a67-42e4-b85b-519d9d799be1)
