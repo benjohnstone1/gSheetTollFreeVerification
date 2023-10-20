@@ -5,6 +5,10 @@ This is a simple integration using the Twilio [Toll-Free Verification API](https
 </br>
 I would highly encourage you to check out the documentation and build your own process using the API but for those of you that have been submitting CSV files to Twilio support team you may find this a helpful tool in the meantime.
 
+Please Watch This Recording First
+[Loom Recording
+](TBD)
+
 Google Sheet - MAKE A COPY
 https://docs.google.com/spreadsheets/d/1lMEcVwlZpWLyWLICx4kpMzKuTgdcYznqfB7Seq-F0X0/edit#gid=940622904
 
