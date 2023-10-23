@@ -6,8 +6,7 @@ This is a simple integration using the Twilio [Toll-Free Verification API](https
 I would highly encourage you to check out the documentation and build your own process using the API but for those of you that have been submitting CSV files to Twilio support team you may find this a helpful tool in the meantime.
 
 Please Watch This Recording First
-[Loom Recording
-](https://www.loom.com/share/4d1f25df05274c208a3335253b40894e?sid=8733b6d1-aa21-4fc2-9fbf-982fcdca4a4a)
+[Loom Recording](https://www.loom.com/share/4d1f25df05274c208a3335253b40894e?sid=8733b6d1-aa21-4fc2-9fbf-982fcdca4a4a)
 
 Google Sheet - MAKE A COPY
 https://docs.google.com/spreadsheets/d/1lMEcVwlZpWLyWLICx4kpMzKuTgdcYznqfB7Seq-F0X0/edit#gid=940622904
