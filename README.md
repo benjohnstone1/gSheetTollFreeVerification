@@ -11,8 +11,12 @@ I would highly encourage you to check out the documentation and build your own p
 https://docs.google.com/spreadsheets/d/1lMEcVwlZpWLyWLICx4kpMzKuTgdcYznqfB7Seq-F0X0/edit#gid=940622904
 
 ### Update Script Properties
-Navigate to [Script Properties](https://script.google.com/u/0/home/projects/1LE_98pA3ELVP2FfBTNYvCsCqZs1c6q66DeaDUt1-EQ0cOvVh8F6j1Xch/settings) & Add Twilio Account_Sid & Auth Token
+Navigate to Script Properties & Add Twilio Account_Sid & Auth Token
 
+First navigate to the extensions menu and open app script
+![Screenshot 2023-10-23 at 12 46 51 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/9a522b06-6dd8-4312-9b19-a57574523ebe)
+
+Then navigate to project settings (gear icon) and scroll to the bottom and replace the default with your actual accound sid and auth token
 ![Screenshot 2023-10-20 at 12 13 50 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/7cfd4c25-89d9-4a06-81b4-90539bfb43f1)
 
 ### Input Your Verification Data
