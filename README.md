@@ -16,6 +16,7 @@ First navigate to the extensions menu and open app script
 ![Screenshot 2023-10-23 at 12 46 51 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/9a522b06-6dd8-4312-9b19-a57574523ebe)
 
 Then navigate to project settings
+</br>
 ![Screenshot 2023-10-23 at 12 51 54 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/1971e30e-0e21-4763-ab62-98ffed1707a8)
 
 Scroll to the bottom and replace the default values with your accound sid and auth token
