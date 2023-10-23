@@ -4,10 +4,10 @@ This is a simple integration using the Twilio [Toll-Free Verification API](https
 </br>
 I would highly encourage you to check out the documentation and build your own process using the API but for those of you that have been submitting CSV files to Twilio support team you may find this a helpful tool in the meantime.
 
-## Please Watch This Recording First
+### Please Watch This Recording First
 [Loom Recording](https://www.loom.com/share/4d1f25df05274c208a3335253b40894e?sid=8733b6d1-aa21-4fc2-9fbf-982fcdca4a4a)
 
-Google Sheet - MAKE A COPY
+### Google Sheet - MAKE A COPY
 https://docs.google.com/spreadsheets/d/1lMEcVwlZpWLyWLICx4kpMzKuTgdcYznqfB7Seq-F0X0/edit#gid=940622904
 
 ### Update Script Properties
@@ -20,13 +20,13 @@ Update your spreadsheet with your data! You can test with the sample data and a 
 When you are ready to submit your TFN Verifications - Click on Twilio Menu & Create Toll Free Verifications
 ![Screenshot 2023-10-20 at 12 32 03 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/f39632c4-4c4c-46b4-aec3-b73ba4d86289)
 
-First time you run the extension do the following:
+### First time you run the extension do the following:
 </br>
 Authorize Script
 </br>
 ![Screenshot 2023-10-20 at 12 25 28 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/8f33e337-1c45-4c97-84f2-4f9117f4feee)
 
-Bypass Google Verification Screen
+### Bypass Google Verification Screen
 </br>
 ![Screenshot 2023-10-20 at 12 28 35 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/f38e8ae1-6a67-42e4-b85b-519d9d799be1)
 
