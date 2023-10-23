@@ -22,21 +22,23 @@ Scroll to the bottom and replace the default values with your accound sid and au
 ![Screenshot 2023-10-20 at 12 13 50 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/7cfd4c25-89d9-4a06-81b4-90539bfb43f1)
 
 ### Input Your Verification Data
-Add your data to the spreadsheet! Please do not test with the sample data as the verifications will be sumitted but will later be rejected. If you do submit a verification know that you can delete the verification from within the console (the api does not yet currently support deletions).
+Add your data to the spreadsheet! Please do not test with the sample data as the verifications will be sumitted but will later be rejected. If you do submit a verification know that you can [delete the verification](https://github.com/benjohnstone1/gSheetTollFreeVerification/blob/main/README.md#deleting-pending-verification) from within the console (the api does not yet currently support deletions).
 
 ### Submit Your Verifications
 When you are ready to submit your TFN Verifications - Click on Twilio Menu & Create Toll Free Verifications
 ![Screenshot 2023-10-20 at 12 32 03 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/f39632c4-4c4c-46b4-aec3-b73ba4d86289)
 
-#### First time you run the extension do the following:
+#### First time you run the extension you will need to do the following:
 Authorize the script:
+</br>
 ![Screenshot 2023-10-20 at 12 25 28 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/8f33e337-1c45-4c97-84f2-4f9117f4feee)
 
-#### Bypass Google Verification Screen
+Bypass the Google verification screen
 </br>
 ![Screenshot 2023-10-20 at 12 28 35 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/f38e8ae1-6a67-42e4-b85b-519d9d799be1)
 
 Then you are done! In columns V you should see all successful Verification Sids in column W you should see any errors from unsuccessful submissions
+</br>
 ![Screenshot 2023-10-20 at 12 38 27 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/680cd8b5-af9d-4a12-9692-1d6516977474) 
 
 ### Deleting Pending Verification
