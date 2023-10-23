@@ -10,16 +10,23 @@ I would highly encourage you to check out the documentation and build your own p
 https://docs.google.com/spreadsheets/d/1lMEcVwlZpWLyWLICx4kpMzKuTgdcYznqfB7Seq-F0X0/edit#gid=940622904
 
 ### Update Script Properties
-Navigate to Script Properties & Add Twilio Account_Sid & Auth Token
+Navigate to Script Properties & add your Twilio Account_Sid & Auth_Token
 
 First navigate to the extensions menu and open app script
 ![Screenshot 2023-10-23 at 12 46 51 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/9a522b06-6dd8-4312-9b19-a57574523ebe)
 
-Then navigate to project settings (gear icon) and scroll to the bottom and replace the default with your actual accound sid and auth token
+Then navigate to project settings
+![Screenshot 2023-10-23 at 12 51 54 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/1971e30e-0e21-4763-ab62-98ffed1707a8)
+
+Scroll to the bottom and replace the default values with your accound sid and auth token
 ![Screenshot 2023-10-20 at 12 13 50 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/7cfd4c25-89d9-4a06-81b4-90539bfb43f1)
 
 ### Input Your Verification Data
-Add your spreadsheet with your data! You can test with the sample data and a TFN PN SID but please be sure to delete this verification if you do test with this data as the verification will later be rejected if you do not add the correct information. You can delete pending toll-free verifications within the console (not yet available within the API).
+Add your data to the spreadsheet! Please do not test with the sample data as the verifications will be sumitted but will later be rejected. If you do submit a verification know that you can delete the verification from within the console (the api does not yet currently support deletions).
+
+### Deleting Pending Verification
+If you've made a mistake (e.g. submitting sample data) then you can delete a pending verification within the console
+![Uploading Screenshot 2023-10-23 at 12.55.01 PM.png…]()
 
 ### Some Gotchas
 Be sure to check the data entry for number fields, e.g. Zip Code for 11111 should be inputted as ="11111" likewise business contact phonen number for +1231231234 should be ="+1231231234", check the sample data sheet as a reference
