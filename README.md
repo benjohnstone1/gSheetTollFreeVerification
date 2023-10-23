@@ -1,5 +1,4 @@
 # Toll Free Verification with Google Sheets
-</br>
 This is a simple integration using the Twilio [Toll-Free Verification API](https://www.twilio.com/docs/messaging/compliance/toll-free/api-onboarding)
 </br>
 I would highly encourage you to check out the documentation and build your own process using the API but for those of you that have been submitting CSV files to Twilio support team you may find this a helpful tool in the meantime.
