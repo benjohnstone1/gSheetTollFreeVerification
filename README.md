@@ -15,7 +15,11 @@ Navigate to [Script Properties](https://script.google.com/u/0/home/projects/1LE_
 
 ![Screenshot 2023-10-20 at 12 13 50 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/7cfd4c25-89d9-4a06-81b4-90539bfb43f1)
 
-Update your spreadsheet with your data! You can test with the sample data and a TFN PN SID but please be sure to delete this verification if you do test it out as the tollfree number verification will later be rejected.
+### Input Your Verification Data
+Add your spreadsheet with your data! You can test with the sample data and a TFN PN SID but please be sure to delete this verification if you do test with this data as the verification will later be rejected if you do not add the correct information. You can delete pending toll-free verifications within the console (not yet available within the API).
+
+### Some Gotchas
+Be sure to check the data entry for number fields, e.g. Zip Code for 11111 should be inputted as ="11111" likewise business contact phonen number for +1231231234 should be ="+1231231234", check the sample data sheet as a reference
 
 When you are ready to submit your TFN Verifications - Click on Twilio Menu & Create Toll Free Verifications
 ![Screenshot 2023-10-20 at 12 32 03 PM](https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/f39632c4-4c4c-46b4-aec3-b73ba4d86289)
