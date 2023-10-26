@@ -51,7 +51,7 @@ If you've made a mistake (e.g. submitting sample data) then you can delete a pen
 <img width="1478" alt="Screenshot 2023-10-23 at 12 55 01 PM" src="https://github.com/benjohnstone1/gSheetTollFreeVerification/assets/7649418/e4a3fc7c-f0c5-43a0-970d-c741784bfd5d">
 
 ### Some Gotchas
-Be sure to check the data entry for number fields, e.g. Zip Code for 11111 should be inputted as ="11111" likewise business contact phonen number for +1231231234 should be ="+1231231234", check the sample data sheet as a reference
+Be sure to check the data entry for number fields, e.g. Zip Code for 11111 should be inputted as ="11111" likewise business contact phone number for +1231231234 should be ="+1231231234", check the sample data sheet as a reference
 
 
 
