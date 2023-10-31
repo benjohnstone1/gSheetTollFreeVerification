@@ -2,6 +2,7 @@ function onOpen() {
   const ui = SpreadsheetApp.getUi();
   ui.createMenu("Twilio")
     .addItem("Create TollFree Verifications", "createTollFreeVerifications")
+    .addItem('Fetch TollFree Verifications Status', 'fetchTollFreeVerificationStatus')
     .addToUi();
 }
 
@@ -85,8 +86,56 @@ function createTollFreeVerifications() {
         ss.getRange("V" + (i + 2)).setValue(verificationSid);
       } catch (e) {
         // Writeback Error Sid
-        ss.getRange("W" + (i + 2)).setValue(e);
+        ss.getRange("X" + (i + 2)).setValue(e);
       }
+    }
+  }
+}
+
+function fetchTollFreeVerificationStatus() {
+
+  // Store Twilio Account SID & Auth Token in a Properties Service
+  var TWILIO_ACCOUNT_SID =
+    PropertiesService.getScriptProperties().getProperty("TWILIO_ACCOUNT_SID");
+  var TWILIO_AUTH_TOKEN =
+    PropertiesService.getScriptProperties().getProperty("TWILIO_AUTH_TOKEN");
+
+  var ss = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('TollFreeVerification');
+
+  var businessName = ss.getRange("A2:A").getValues();
+  var verificationSids = ss.getRange("V2:V").getValues();
+
+  var url = 'https://messaging.twilio.com/v1/Tollfree/Verifications/';
+  
+  var headers = {
+        "Authorization": "Basic " + Utilities.base64Encode(TWILIO_ACCOUNT_SID + ':' + TWILIO_AUTH_TOKEN)
+  };
+  
+  var options = {
+    'method': 'GET',
+    'headers': headers
+  };
+
+  for (var i = 0; i < businessName.length; i++) {
+    // Loop through non-empty rows
+    if (verificationSids[i][0] != "") {
+      try {
+      
+      if (verificationSids[i][0] != '') {
+        // Create Verification
+        var response = UrlFetchApp.fetch(url+verificationSids[i][0], options);
+        var verificationStatus = JSON.parse(response).status;
+        // Writeback Verification Sid
+        ss.getRange("W"+(i+2)).setValue(verificationStatus);
+        ss.getRange("X"+(i+2)).setValue('');
+      } else {
+        throw new Error( "Verification Sid not Present" );
+      }
+    }
+    catch (e) {
+    // Writeback Error Sid
+    ss.getRange("X"+(i+2)).setValue(e);
+    }
     }
   }
 }
